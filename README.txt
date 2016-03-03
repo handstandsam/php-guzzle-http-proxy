@@ -10,3 +10,6 @@ Requires:
 
 Uses Library (included in repository):
 * Guzzle 5.3 (HTTP Client) - http://docs.guzzlephp.org/en/5.3/index.html
+
+Attributions:
+* Code is a derivative of https://github.com/Svish/php-cross-domain-proxy, but added support for responses that contained the 'Transfer-Encoding: chunked' header.  This is done by leveraging the Guzzle client.
